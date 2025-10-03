@@ -34,38 +34,38 @@ const Header = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
-            <button onClick={() => scrollToSection('sobre')} className="text-foreground hover:text-primary transition-colors font-medium">
+            <button onClick={() => scrollToSection('sobre')} className="text-white hover:text-primary transition-colors font-medium">
               Sobre
             </button>
-            <button onClick={() => scrollToSection('servicos')} className="text-foreground hover:text-primary transition-colors font-medium">
+            <button onClick={() => scrollToSection('servicos')} className="text-white hover:text-primary transition-colors font-medium">
               Serviços
             </button>
-            <button onClick={() => scrollToSection('contato')} className="text-foreground hover:text-primary transition-colors font-medium">
+            <button onClick={() => scrollToSection('contato')} className="text-white hover:text-primary transition-colors font-medium">
               Contato
             </button>
-            <Button onClick={() => window.open('https://wa.me/5521971442727', '_blank')} className="bg-primary hover:bg-primary/90 text-primary-foreground">
+            <Button onClick={() => window.open('https://wa.me/5521971442727', '_blank')} className="bg-primary hover:bg-primary/90 text-white">
               Fale Conosco
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
-          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden text-foreground">
+          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden text-white">
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
 
         {/* Mobile Menu */}
         {isMenuOpen && <div className="md:hidden mt-4 pb-4 flex flex-col gap-4 border-t border-border pt-4">
-            <button onClick={() => scrollToSection('sobre')} className="text-foreground hover:text-primary transition-colors font-medium text-left">
+            <button onClick={() => scrollToSection('sobre')} className="text-white hover:text-primary transition-colors font-medium text-left">
               Sobre
             </button>
-            <button onClick={() => scrollToSection('servicos')} className="text-foreground hover:text-primary transition-colors font-medium text-left">
+            <button onClick={() => scrollToSection('servicos')} className="text-white hover:text-primary transition-colors font-medium text-left">
               Serviços
             </button>
-            <button onClick={() => scrollToSection('contato')} className="text-foreground hover:text-primary transition-colors font-medium text-left">
+            <button onClick={() => scrollToSection('contato')} className="text-white hover:text-primary transition-colors font-medium text-left">
               Contato
             </button>
-            <Button onClick={() => window.open('https://wa.me/5521971442727', '_blank')} className="bg-primary hover:bg-primary/90 text-primary-foreground w-full">
+            <Button onClick={() => window.open('https://wa.me/5521971442727', '_blank')} className="bg-primary hover:bg-primary/90 text-white w-full">
               Fale Conosco
             </Button>
           </div>}
