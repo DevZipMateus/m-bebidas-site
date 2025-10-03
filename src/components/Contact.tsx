@@ -55,8 +55,9 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold mb-1 text-foreground">Endereço</h4>
                     <p className="text-muted-foreground">
-                      Estrada velha de Maricá, nº 6436<br />
-                      Maricá - RJ
+                      Estr. Velha de Maricá, 1049<br />
+                      Itapeba, Maricá - RJ<br />
+                      24931-185
                     </p>
                   </div>
                 </div>
@@ -94,7 +95,7 @@ const Contact = () => {
               <h3 className="text-2xl font-semibold mb-6 text-foreground">Nossa localização</h3>
               <div className="rounded-lg overflow-hidden shadow-lg h-[400px] border border-border">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235486.08149534625!2d-42.869668!3d-22.919444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDU1JzEwLjAiUyA0MsKwNTInMTAuOCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr"
+                  src="https://maps.google.com/maps?q=Estr.+Velha+de+Maricá,+1049+-+Itapeba,+Maricá+-+RJ,+24931-185&t=&z=15&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
