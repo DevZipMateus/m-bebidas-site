@@ -26,10 +26,10 @@ const Header = () => {
     }
   };
   return <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-background ${isScrolled ? 'shadow-md' : ''}`}>
-      <nav className="container mx-auto px-4 py-4">
+      <nav className="container mx-auto px-3 sm:px-4 py-3 sm:py-4">
         <div className="flex items-center justify-between">
           <button onClick={() => scrollToSection('hero')} className="flex items-center gap-2 transition-transform hover:scale-105">
-            <img src={logo} alt="2M Distribuidora de Bebidas" className="h-28 w-auto" />
+            <img src={logo} alt="2M Distribuidora de Bebidas" className="h-16 sm:h-20 md:h-24 lg:h-28 w-auto" />
           </button>
 
           {/* Desktop Menu */}
