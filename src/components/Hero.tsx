@@ -3,12 +3,14 @@ import logo from '@/assets/logo.png';
 import heroBg from '@/assets/hero-bg.png';
 const Hero = () => {
   return <section id="hero" className="relative min-h-screen flex items-center justify-center bg-background pt-16 sm:pt-20">
-      <div className="absolute inset-0 bg-cover bg-bottom bg-no-repeat opacity-70" style={{ backgroundImage: `url(${heroBg})` }}></div>
+      <div className="absolute inset-0 bg-cover bg-bottom bg-no-repeat opacity-70" style={{
+      backgroundImage: `url(${heroBg})`
+    }}></div>
       
       <div className="container mx-auto px-3 sm:px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto bg-black/50 backdrop-blur-sm rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12">
           <div className="mb-4 sm:mb-6 md:mb-8 flex justify-center">
-            <img src={logo} alt="2M Distribuidora de Bebidas" className="h-24 w-24 sm:h-32 sm:w-32 md:h-38 md:w-38 animate-fade-in" />
+            <img src={logo} alt="2M Distribuidora de Bebidas" className="h-38  w-24 sm:h-32 sm:w-32 md:h-38 md:w-38 animate-fade-in" />
           </div>
           
           <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-primary-foreground mb-3 sm:mb-4 md:mb-6 animate-fade-in leading-tight">
