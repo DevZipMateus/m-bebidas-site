@@ -29,7 +29,7 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <button onClick={() => scrollToSection('hero')} className="flex items-center gap-2 transition-transform hover:scale-105">
-            <img src={logo} alt="2M Distribuidora de Bebidas" className="h-38 w-38" />
+            <img src={logo} alt="2M Distribuidora de Bebidas" className="h-38 w-auto" />
           </button>
 
           {/* Desktop Menu */}
