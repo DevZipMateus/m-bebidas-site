@@ -3,7 +3,7 @@ import logo from '@/assets/logo.png';
 import heroBg from '@/assets/hero-bg.png';
 const Hero = () => {
   return <section id="hero" className="relative min-h-screen flex items-center justify-center bg-background pt-20">
-      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30" style={{ backgroundImage: `url(${heroBg})` }}></div>
+      <div className="absolute inset-0 bg-cover bg-bottom bg-no-repeat opacity-30" style={{ backgroundImage: `url(${heroBg})` }}></div>
       
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
