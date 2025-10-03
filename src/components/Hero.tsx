@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-cover bg-bottom bg-no-repeat opacity-70" style={{ backgroundImage: `url(${heroBg})` }}></div>
       
       <div className="container mx-auto px-4 text-center relative z-10">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto bg-black/50 backdrop-blur-sm rounded-2xl p-8 md:p-12">
           <div className="mb-8 flex justify-center">
             <img src={logo} alt="2M Distribuidora de Bebidas" className="h-38 w-38 animate-fade-in" />
           </div>
