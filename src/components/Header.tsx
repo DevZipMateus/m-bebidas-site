@@ -25,7 +25,7 @@ const Header = () => {
       setIsMenuOpen(false);
     }
   };
-  return <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-background ${isScrolled ? 'shadow-md' : ''}`}>
+  return <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-black ${isScrolled ? 'shadow-md' : ''}`}>
       <nav className="container mx-auto px-3 sm:px-4 py-3 sm:py-4">
         <div className="flex items-center justify-between">
           <button onClick={() => scrollToSection('hero')} className="flex items-center gap-2 transition-transform hover:scale-105">
