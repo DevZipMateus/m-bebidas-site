@@ -29,12 +29,24 @@ import budweiserImg from '@/assets/products/budweiser.jpeg';
 import stellaArtoisImg from '@/assets/products/stella-artois.webp';
 import coronaImg from '@/assets/products/corona.jpeg';
 import heinekenLongNeckImg from '@/assets/products/heineken-long-neck.jpeg';
+import brahmaImg from '@/assets/products/brahma.jpeg';
+import redBullImg from '@/assets/products/red-bull.jpeg';
+import topCocoCocoImg from '@/assets/products/top-coco-coco.jpeg';
+import topCocoMacaVerdeImg from '@/assets/products/top-coco-maca-verde.jpeg';
+import topCocoMaracujaImg from '@/assets/products/top-coco-maracuja.jpeg';
+import topCocoMelanciaImg from '@/assets/products/top-coco-melancia.jpeg';
+import topCocoMorangoImg from '@/assets/products/top-coco-morango.jpeg';
 
 const Products = () => {
   const products = [
     {
       name: 'Antarctica Lata 350ml',
       image: antarcticaImg,
+      category: 'Cerveja'
+    },
+    {
+      name: 'Brahma Chopp',
+      image: brahmaImg,
       category: 'Cerveja'
     },
     {
@@ -156,6 +168,36 @@ const Products = () => {
       name: 'Leonoff Vodka',
       image: leonoffImg,
       category: 'Vodka'
+    },
+    {
+      name: 'Red Bull',
+      image: redBullImg,
+      category: 'Energético'
+    },
+    {
+      name: 'Top Coco Gelo - Coco',
+      image: topCocoCocoImg,
+      category: 'Gelo para Drinks'
+    },
+    {
+      name: 'Top Coco Gelo - Maçã Verde',
+      image: topCocoMacaVerdeImg,
+      category: 'Gelo para Drinks'
+    },
+    {
+      name: 'Top Coco Gelo - Maracujá',
+      image: topCocoMaracujaImg,
+      category: 'Gelo para Drinks'
+    },
+    {
+      name: 'Top Coco Gelo - Melancia',
+      image: topCocoMelanciaImg,
+      category: 'Gelo para Drinks'
+    },
+    {
+      name: 'Top Coco Gelo - Morango',
+      image: topCocoMorangoImg,
+      category: 'Gelo para Drinks'
     }
   ];
 
