@@ -22,6 +22,13 @@ import blackLabelImg from '@/assets/products/black-label.jpeg';
 import redLabelImg from '@/assets/products/red-label.webp';
 import lariosRoseImg from '@/assets/products/larios-rose.png';
 import lariosGinebraImg from '@/assets/products/larios-ginebra.jpeg';
+import cirocImg from '@/assets/products/ciroc.jpeg';
+import leonoffImg from '@/assets/products/leonoff.jpeg';
+import beefeaterImg from '@/assets/products/beefeater.jpeg';
+import budweiserImg from '@/assets/products/budweiser.jpeg';
+import stellaArtoisImg from '@/assets/products/stella-artois.webp';
+import coronaImg from '@/assets/products/corona.jpeg';
+import heinekenLongNeckImg from '@/assets/products/heineken-long-neck.jpeg';
 
 const Products = () => {
   const products = [
@@ -33,6 +40,26 @@ const Products = () => {
     {
       name: 'Heineken Lata',
       image: heinekenImg,
+      category: 'Cerveja'
+    },
+    {
+      name: 'Heineken Long Neck',
+      image: heinekenLongNeckImg,
+      category: 'Cerveja'
+    },
+    {
+      name: 'Budweiser',
+      image: budweiserImg,
+      category: 'Cerveja'
+    },
+    {
+      name: 'Stella Artois',
+      image: stellaArtoisImg,
+      category: 'Cerveja'
+    },
+    {
+      name: 'Corona Extra',
+      image: coronaImg,
       category: 'Cerveja'
     },
     {
@@ -58,6 +85,16 @@ const Products = () => {
     {
       name: 'Johnnie Walker Gold Label',
       image: goldLabelImg,
+      category: 'Whisky'
+    },
+    {
+      name: 'Johnnie Walker Black Label',
+      image: blackLabelImg,
+      category: 'Whisky'
+    },
+    {
+      name: 'Johnnie Walker Red Label',
+      image: redLabelImg,
       category: 'Whisky'
     },
     {
@@ -96,16 +133,6 @@ const Products = () => {
       category: 'Whisky'
     },
     {
-      name: 'Johnnie Walker Black Label',
-      image: blackLabelImg,
-      category: 'Whisky'
-    },
-    {
-      name: 'Johnnie Walker Red Label',
-      image: redLabelImg,
-      category: 'Whisky'
-    },
-    {
       name: 'Larios Rose Gin',
       image: lariosRoseImg,
       category: 'Gin'
@@ -114,6 +141,21 @@ const Products = () => {
       name: 'Larios Ginebra Mediterránea',
       image: lariosGinebraImg,
       category: 'Gin'
+    },
+    {
+      name: 'Beefeater Pink Strawberry',
+      image: beefeaterImg,
+      category: 'Gin'
+    },
+    {
+      name: 'Cîroc Vodka',
+      image: cirocImg,
+      category: 'Vodka'
+    },
+    {
+      name: 'Leonoff Vodka',
+      image: leonoffImg,
+      category: 'Vodka'
     }
   ];
 
