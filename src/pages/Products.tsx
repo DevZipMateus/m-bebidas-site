@@ -222,11 +222,11 @@ const Products = () => {
                 {products.map((product, index) => (
                   <Card key={index} className="overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
                     <CardContent className="p-0">
-                      <div className="aspect-square bg-secondary/10 flex items-center justify-center p-6">
+                      <div className="aspect-square bg-secondary/10 flex items-center justify-center p-8">
                         <img 
                           src={product.image} 
                           alt={product.name}
-                          className="w-full h-full object-contain"
+                          className="max-w-full max-h-full object-contain"
                         />
                       </div>
                       <div className="p-4 sm:p-6">
