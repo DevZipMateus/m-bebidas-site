@@ -13,6 +13,15 @@ import blueLabelImg from '@/assets/products/blue-label.jpeg';
 import goldLabelImg from '@/assets/products/gold-label.jpeg';
 import ballantinesImg from '@/assets/products/ballantines.jpeg';
 import buchanansImg from '@/assets/products/buchanans.jpeg';
+import royalSaluteImg from '@/assets/products/royal-salute-21.webp';
+import jackDanielsImg from '@/assets/products/jack-daniels.webp';
+import jackDanielsHoneyImg from '@/assets/products/jack-daniels-honey.webp';
+import jackDanielsAppleImg from '@/assets/products/jack-daniels-apple.webp';
+import whiteHorseImg from '@/assets/products/white-horse.jpeg';
+import blackLabelImg from '@/assets/products/black-label.jpeg';
+import redLabelImg from '@/assets/products/red-label.webp';
+import lariosRoseImg from '@/assets/products/larios-rose.png';
+import lariosGinebraImg from '@/assets/products/larios-ginebra.jpeg';
 
 const Products = () => {
   const products = [
@@ -60,6 +69,51 @@ const Products = () => {
       name: 'Buchanan\'s DeLuxe 12 Anos',
       image: buchanansImg,
       category: 'Whisky'
+    },
+    {
+      name: 'Royal Salute 21 Anos',
+      image: royalSaluteImg,
+      category: 'Whisky'
+    },
+    {
+      name: 'Jack Daniel\'s Tennessee Whiskey',
+      image: jackDanielsImg,
+      category: 'Whisky'
+    },
+    {
+      name: 'Jack Daniel\'s Tennessee Honey',
+      image: jackDanielsHoneyImg,
+      category: 'Whisky'
+    },
+    {
+      name: 'Jack Daniel\'s Tennessee Apple',
+      image: jackDanielsAppleImg,
+      category: 'Whisky'
+    },
+    {
+      name: 'White Horse',
+      image: whiteHorseImg,
+      category: 'Whisky'
+    },
+    {
+      name: 'Johnnie Walker Black Label',
+      image: blackLabelImg,
+      category: 'Whisky'
+    },
+    {
+      name: 'Johnnie Walker Red Label',
+      image: redLabelImg,
+      category: 'Whisky'
+    },
+    {
+      name: 'Larios Rose Gin',
+      image: lariosRoseImg,
+      category: 'Gin'
+    },
+    {
+      name: 'Larios Ginebra Mediterránea',
+      image: lariosGinebraImg,
+      category: 'Gin'
     }
   ];
 
